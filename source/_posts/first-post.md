@@ -57,6 +57,7 @@ if ($serve) {
     start-process "C:\Program Files (x86)\Mozilla Firefox\firefox.exe" "http://localhost:4000"
 }
 ```
-Build will clean and build the blog.
-Deploy cleans and then runs the deployment command which will build and deploy to Github.
-Serve will clean, build and serve the blog locally and as a bonus, start Firefox on the right page to check things out. 
+`build.ps1 -build` will clean and build the blog.
+`build.ps1 -deploy` cleans and then runs the deployment command which will build and deploy to Github.
+`build.ps1 -serve` will clean, build and serve the blog locally and as a bonus, start Firefox on the right page to check things out. 
+Also you can combine them if you want to. `build.ps1 -build -serve` will make a clean build and then serve it locally. 
