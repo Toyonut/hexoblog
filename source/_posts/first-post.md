@@ -4,6 +4,7 @@ date: 2017-10-12 22:40:13
 tags: 
 - "First"
 - "Shiny"
+- "Build"
 ---
 The one where Paul writes a post using hexo.
 <!-- more -->
