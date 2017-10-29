@@ -17,7 +17,7 @@ Once again, it is the simplest place to host a static site that has a memorable 
 
 The reality is, as much as I liked my old Wyam blog and the azure hosting, when I came to try and get back ino it, things didn't work any more. It wasn't anything unsolvable, but it was a slightly annoying amount of friction. The issue was with Global Metadata tags which were removed. 
 Also the build and release pipeline was cool, but over the top. Cake have also revved a few times and my cake build system didnt work any more. There is currently a pull request to fix this, but still.  
-Also, Wyam doesn't have the breadth of themes alternatives like Hugo, Jekyll, Hexo and others do. It is getting better, but is not there yet. 
+Lastly, Wyam doesn't have the breadth of themes alternatives like Hugo, Jekyll, Hexo and others do. It is getting better, but is not there yet. 
 
 With Hexo, I can write, then run `Hexo Deploy` and it deploys to Github. That is about as simple as it gets. 
 
