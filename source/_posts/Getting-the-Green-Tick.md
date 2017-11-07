@@ -5,8 +5,6 @@ tags:
     - Azure
     - SSL
 ---
-### Getting the Green Tick
-
 <p>How to avoid the grey circle of indifference</p>
 <!-- more -->
 <p>Azure provides you a free ssl cert if you are using their webapp. 
