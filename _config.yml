@@ -78,6 +78,6 @@ theme: bootstrap-blog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/Toyonut/toyonut.github.io.git
+  repo: git@github.com:Toyonut/toyonut.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
