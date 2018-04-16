@@ -18,6 +18,7 @@ This works because Azure webapps have [URL-Rewrite](https://www.iis.net/learn/ex
 
 You can add this to your web.config and it will be applied to the webapp.<br>
 There are plenty of blogs around which can help, but I followed this one from [Technet](https://blogs.technet.microsoft.com/dawiese/2016/06/07/redirect-from-http-to-https-using-the-iis-url-rewrite-module/).<br>
+
 ```<rule name="Redirect to https">
           <match url="(.*)"/>
             <conditions>
@@ -25,3 +26,6 @@ There are plenty of blogs around which can help, but I followed this one from [T
             </conditions>
             <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Permanent" />
         </rule>```
+
+Cheers
+Paul
