@@ -1,5 +1,5 @@
 ---
-title: learning to code
+title: learning to code review and take a code review.
 date: 2018-03-25 21:17:11
 tags: 
     - learning
